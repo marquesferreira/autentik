@@ -1,0 +1,125 @@
+/***  ACCORDION ***/
+#accordion{
+    /*Primeiro Accordion*/
+    margin-bottom: 20px;
+}
+
+#accordion .panel-heading{
+    border-bottom: none!important;
+}
+
+#accordion .panel{
+    box-shadow: none;
+}
+
+.panel-features h4{
+    margin:0;
+    padding: 20px 0;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-bottom:1px solid #707070;
+}
+
+@media screen and (min-width:991px){
+    .panel-features h4{
+        font-size: 15px;
+        padding: 0;
+    }
+}
+
+.panel-features span{ 
+    font-family:'Mirador', sans-serif;
+    margin-right:10px;
+}
+
+@media screen and (min-width: 991px){
+    .panel-features span{ 
+        margin-right:0;
+    }
+}
+
+.panel-features i {
+    flex: 1 0 auto;
+    text-align: right;
+}
+
+@media screen and (min-width: 991px){
+    .panel-features span{ 
+        font-size: 38px;
+        margin-right:40px;
+    }
+    .panel-features h4{
+        padding: 20px 0 18px 0;
+    }
+}
+
+.panel-features a{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    align-content: start;
+    font-weight:800;
+}
+
+@media screen and (min-width:991px){
+    .panel-features a{
+        flex-wrap: wrap;
+    } 
+}
+
+.panel-features a:hover{
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.panel-features .panel-body{
+    padding: 10px 0;
+}
+
+.accordion__features h2{
+    margin-top: 20px;
+    text-align:left;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width:991px){
+    .accordion__features h2{
+        margin-top: 0;
+        font-size: 14px;
+    } 
+}
+ 
+.las{
+    color:#707070;
+    font-weight: bold;
+}
+
+[data-toggle="collapse"] .las:before {   
+    content: "\f068";
+}
+
+[data-toggle="collapse"].collapsed .las:before {
+    content: "\f067";
+}
+
+/***  LINK  ***/
+.main__link{  
+    border-bottom: 3px solid black;
+    padding-bottom: 6px;
+    color:black;
+    margin-bottom: 40px;
+    font-weight: 800;
+    transition: 0.3s ease-in-out;
+}
+.main__link:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: #b5756c;
+    border-bottom: 3px solid #b5756c;
+
+}

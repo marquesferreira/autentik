@@ -1,0 +1,15 @@
+.space-top{
+    margin-top:40px;
+}
+.space-bottom{
+    margin-bottom:40px;
+}
+
+@media screen and (min-width:991px){
+    .space-top{
+        margin-top:80px;
+    }
+    .space-bottom{
+        margin-bottom:80px;
+    }
+}

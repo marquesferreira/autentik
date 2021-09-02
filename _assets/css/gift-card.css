@@ -1,0 +1,133 @@
+.gift__card{
+    min-height:70vh; /*dminui o gift card de 90 para 70, ainda continua ocupando toda tela, porem fica mais proximo do espacamento do design*/
+}
+
+.gift__card__bg{
+    background: url('../img/gift-card/bg-gift-card.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width:768px){
+    .gift__card__content{
+        padding: 20px 0;
+    }
+}
+
+@media screen and (min-width:991px){
+    .gift__card__content{
+        display: flex;
+        flex-direction: column;
+        height: 60vh;/* diminui de 90 para 60 porque fica mais proximo ao layout */
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+.gift__card__content h3{
+    margin:0;
+}
+
+@media screen and (min-width:991px){
+    .gift__card__content h3{
+        font-size:30px;
+        line-height: 48px;
+    }
+}
+
+.gift__card__content .txt__primary{
+    font-weight: 600;
+    font-size: 15px;
+    margin:20px 0;
+}
+
+@media screen and (min-width:991px){
+    .gift__card__content .txt__primary{
+        margin:20px 0 40px 0;
+    }
+}
+
+
+/** Detalhes do Gift Card **/
+.gift__card__detail{
+    width: 100%;
+}
+@media screen and (min-width:991px){
+    .gift__card__detail{
+        margin-bottom: 23px;
+    }
+}
+
+.gift__card__detail h6{
+    font-size: 15px;
+}
+.gift__card__detail p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/** Botão **/
+.btn__envoy{
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.btn__envoy:hover, .btn__envoy:focus, .btn__envoy:active{
+    text-decoration: none;
+}
+.btn__envoy img, .gift__card__detail img{
+    margin: 10px 0;
+}
+
+@media screen and (min-width:991px){
+    .btn__envoy img, .gift__card__detail img{
+        margin: 0 10px 0 15px;
+    }
+}
+
+/** Gift Card Cartão **/
+.gift__card__buy{
+    margin: 0px 0;/*correcao do espacamento entre as secoes, valor anterior era 50px;*/
+    overflow: hidden;
+
+}
+
+.gift__card__buy .card_img{
+    width: 65%;
+}
+
+.gift__card__buy__content{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.gift__card__buy__content h4{
+    font-size:28px;
+    line-height: 48px;
+    font-weight: 600;
+}
+.gift__card__buy__content .btn__envoy img{
+    margin-left:0;
+}
+
+.gift__card__buy__content p{
+    font-size: 16px;
+    font-weight: 600;
+    margin:20px 0;
+}
+
+@media screen and (min-width:991px){
+    .gift__card__buy__content p{
+        margin:30px 0;
+    }
+    .gift__card__buy{
+        margin-bottom:100px;
+    }
+}

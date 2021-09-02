@@ -1,0 +1,63 @@
+ /* ! testimonials */ 
+#testimonials h2 div {
+    display: inline;
+    margin-left: auto;
+    margin-right: 10%;
+}
+#testimonials h2 {
+    text-align: left;
+    display: flex;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: left;
+    color: #000;
+}
+
+/* ! slidertestimonial box  */
+.tBox{
+    margin: 0 10px;
+    display: block;
+}
+.tBox p{
+    max-width: 420px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 28px;
+    text-align: left;
+    color: #555;
+}
+@media screen and (min-width:991px){
+    .tBox p{
+        font-size: 18px;
+    }
+}
+.tBox_profilerow {
+    max-width: 350px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tBox_profilerow img{
+    width: 50px!important;
+}
+.tBox_profilerow p {
+    margin-bottom: 0rem;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.tBox_profilerow p  span{
+    color: #A1A1A1;
+    font-weight: normal;
+}
+.test_next_slide, .test_prev_slide{
+    transition: 0.3s ease-in-out;
+}
+.test_prev_slide:hover, .test_next_slide:hover{
+    cursor: pointer;
+    color: #b5756c;
+    text-decoration: none;
+}

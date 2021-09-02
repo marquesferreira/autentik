@@ -1,0 +1,137 @@
+.packs{
+    background-color: #363945;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width:768px){
+    .packs{
+        background:linear-gradient(#363945, #363945 70.9%, #ffffff 50.1%, #ffffff 100%);
+        padding-top: 70px;/* ajuste para mesmo espacamnento do layout */
+    }
+}
+ 
+/***  Packs Row Titles  **/
+.packs__titles{
+    padding-top: 35px;
+    margin-bottom: 35px;
+}
+
+.packs__titles h2{
+    margin:10px 0 20px 0;
+}
+
+.packs__titles .f__lato{
+    font-size:12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.packs__titles p span{
+    font-weight: 500; /*ajuste no peso da fonte dos titulos, porem a fonte nao contem o peso necessario */
+}
+
+@media screen and (min-width:991px){
+    .packs__titles{
+        padding-top: 70px;
+        margin-bottom: 70px;
+    }
+    .packs__titles h2 {
+        font-size: 38px;
+    }
+    .packs__titles p{
+        font-size: 18px;
+    }
+    .packs__titles .text-right-lg{
+        text-align: right!important;
+    }
+}
+ 
+/* PACK PRODUCTS */
+.product-box {
+  padding: 0;
+}
+
+.product-image{
+    background-color: #eeeeee;
+    overflow: hidden;
+    padding: 10px;
+    height: 290px;/* altura fixa */
+}
+
+@media screen and (min-width:768px){
+    .product-image{
+       height: 185px;
+    }
+}
+@media screen and (min-width:1024px){
+    .product-image{
+        height: 290px;
+    }
+}
+@media screen and (min-width:1200px){
+    .product-image{
+        height: 310px;
+    }
+}
+.product-image:hover img {
+    opacity: 0.8;
+    filter: grayscale(100%);
+}
+.product-image img{
+    width: 100%;
+}
+
+.product-desc {
+  padding: 10px 10px 10px 0;
+  position: relative;
+}
+
+.product-name {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #fff;
+  display: block;
+  margin: 2px 0 5px 0;
+}
+@media screen and (min-width:768px){
+    .product-name {
+        color: #000;
+    }
+}
+@media screen and (min-width:1200px){
+    .product-name {
+        font-size: 16px;
+    }
+}
+.product-name:hover,
+.product-name:focus {
+  color:  #b5756c;
+}
+
+.product-main-price small {
+  font-size: 10px;
+}
+.product-images {
+  margin: 0 20px;
+}
+
+.ibox-content {
+  color: inherit;
+  border-image: none;
+  margin-bottom: 30px;
+}
+
+/** Icone acima do produto **/
+._icon-extra:after{
+    content: ' ';
+    background: url('../img//products/active-icon.svg');
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    z-index: 2;
+    top: -15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 75%;
+}

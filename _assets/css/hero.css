@@ -1,0 +1,295 @@
+.hero {
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icon_decouvir {
+    content: url('../img/hero/down.svg');
+    padding-left: 4px;
+    padding-top: 4px;
+    height: 12px;
+}
+
+.icon_box {
+    content: url('../img/hero/box.svg');
+    padding-right: 8px;
+}
+
+.icon_box2 {
+    content: url('../img/hero/box2.svg');
+    padding-right: 8px;
+}
+
+.icon_mark {
+    content: url('../img/hero/mark.svg');
+    padding-right: 8px;
+}
+
+.icon_cart {
+    content: url('../img/hero/cart.svg');
+    padding-right: 8px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+
+/***  Points - vertical text ***/
+
+.product__points {
+    display: table;
+    padding-left: -100px;
+}
+
+.product__points__commande {
+    display: table-cell;
+    vertical-align: middle;
+    writing-mode: vertical-rl;
+    padding-top: 200px;
+}
+
+.product__points__calls {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.product__points__calls_a {
+    float: left;
+    padding-right: 40px;
+}
+
+.product__points__calls_a a,
+.product__points__calls_b a {
+    text-decoration: none;
+}
+
+.product__points__calls_a h6,
+.product__points__calls_b h6 {
+    font-size: 0.8em;
+}
+
+@media screen and (max-width:700px) {
+    .product__points {
+        padding-top: 180px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero {
+        display: inline-block;
+    }
+    .product__points {
+        margin-top: 20px;
+        text-align: left;
+        font-size: 1em;
+    }
+    .product__points__commande {
+        vertical-align: top;
+        writing-mode: horizontal-tb;
+        padding-left: 10px;
+        padding-top: 6px;
+        font-size: 0.8em;
+        padding-right: 10px;
+        width: 240px;
+    }
+    .product__points__calls {
+        display: block;
+        vertical-align: middle;
+        padding-right: 10px;
+    }
+    .product__points__calls_a {
+        padding-right: 10px;
+    }
+    .product__points__calls_a,
+    .product__points__calls_b {
+        text-align: center;
+    }
+    .product__points__calls_a h2,
+    .product__points__calls_b h2 {
+        font-size: 1.2em;
+    }
+    .product__points__calls_a h6,
+    .product__points__calls_b h6 {
+        font-size: 0.6em;
+    }
+}
+
+
+/***  Slide with SmartSlider ***/
+
+.product__slide__images {
+    padding: 5% 0 0 0;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .product__slide__images {
+        align-items: center;
+    }
+}
+
+
+/***  Product Description ***/
+
+.product__description {
+    color: black;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.product__description__title {
+    margin-top: 200px;
+    letter-spacing: 0.4em;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.product__description__product {
+    font-size: 2.4em;
+    font-weight: 700;
+}
+
+.product__benefits {
+    font-size: 0.8em;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:768px) {
+    .product__description {
+        height: 100%;
+        color: black;
+        text-align: center;
+        padding-left: 0;
+    }
+    .product__description__title {
+        margin-top: 40px;
+        letter-spacing: 0.4em;
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+}
+
+
+/***  Right flag ***/
+
+.product__flag {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.product__flag__content {
+    margin-top: 100px;
+    font-size: 1.6em;
+    border-radius: 50%;
+    background-color: #BF8175;
+    color: white;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 40vh;
+    align-items: right;
+    text-align: center;
+}
+
+.product__flag__content__price {
+    padding-top: 40px;
+    font-size: 1em;
+    line-height: 2mm;
+}
+
+.product__flag__content__price-cur {
+    font-size: 0.5em;
+}
+
+.product__flag__content__qty {
+    font-size: 0.4em;
+    line-height: 2mm;
+}
+
+.product__flag__content__bonus {
+    font-size: 0.4em;
+    line-height: 2mm;
+}
+
+.product__profiter__button {
+    display: block;
+    text-align: right;
+    margin-top: -40px;
+    padding-right: 30px;
+}
+
+.product__profiter__button a {
+    vertical-align: middle;
+    font-size: 0.7em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.product__decouvir {
+    padding: 0;
+}
+
+.product__decouvir__button {
+    font-size: 0.7em;
+    font-weight: 700;
+    color: #707070;
+    text-align: right;
+    text-decoration: none;
+    border: none;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .product__flag {
+        position: relative;
+        text-align: center;
+        align-items: center;
+    }
+    .product__flag__content {
+        margin-top: 10px;
+        font-size: 1.6em;
+        margin: 20px;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .product__profiter__button {
+        text-align: center;
+        margin-top: 0;
+        padding-right: 0;
+        font-size: 1.6em;
+    }
+    .product__decouvir__button {
+        font-size: 1em;
+        text-align: center;
+        padding-top: 20px;
+        padding-right: 0;
+        margin-bottom: 100px;
+    }
+}
+
+.product__slide__images__circle{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.product__slide__images__circle img{
+    width: 420px;
+}
+
+.product__slide__images .product__image{
+    z-index: 2;
+}

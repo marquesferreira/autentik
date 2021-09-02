@@ -1,0 +1,37 @@
+
+/** CTA SELECTION **/
+.cta_selection{
+    padding: 50px 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width:991px){
+    .cta_selection{
+        padding-top: 90px;/* corrigindo o espacamento criado pelo posicionamento do icone*/
+        padding-bottom: 140px;
+    }
+}
+ 
+.cta_selection strong{
+    display:block;
+    font-size: 12em;
+    color: #b5756c;
+    max-height: 140px;
+}
+
+.cta_selection h2 {
+    font-weight: 500;
+    color: #b5756c;
+    font-size: 23px;
+    line-height: 33px;
+}
+
+@media screen and (min-width:991px){
+    .cta_selection h2{
+        font-size:30px;
+        line-height: 66px;
+    }
+}

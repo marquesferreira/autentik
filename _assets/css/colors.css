@@ -1,0 +1,26 @@
+/**** BACKGROUND ***/
+.bg__branco{
+    background-color: #fff;
+}
+.bg__cinza__claro{
+    background-color: #F0F0F0;
+}
+.bg__cinza__escuro{
+    background-color: #363944;
+}
+.bg__azul__claro{
+     background-color:#F0F5F9;
+    /*background: linear-gradient(to right, #F0F5F9, rgba(240, 245, 249, 0.9));*/
+}
+
+.txt__white{
+    color:white;
+}
+
+.txt__cinza{
+    color:#BEBEBE;
+}
+
+.txt__primary{
+    color:#b5756c;
+}

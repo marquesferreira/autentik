@@ -1,0 +1,82 @@
+
+.rachelle__personnalisez {
+    bottom: 0px;
+    height: 120px;
+    padding-left: 30px;
+    position: relative;
+    bottom: 60px;
+}
+
+.raclete_wine .item .ibox p{
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+.raclete_wine .products-hero__textbox__svg_number {
+    position: absolute;
+    left: 11%;
+    top: 10px;
+}
+.rachelle__personnalisez strong{
+    margin-right: auto;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.products-hero__textbox__svg_number {
+    position: absolute;
+    left: 26%;
+    top: 10px;
+}
+.rachelle__personnalisez h4{
+    font-size: 20px;
+}
+@media screen and (min-width: 900px) {
+ 
+.rachelle__personnalisez{
+    padding-left: 85px;
+    padding-right: 20px;
+}
+.rachelle__personnalisez h4{
+    font-size: 1.5rem;
+}
+.raclete_wine  .products-hero__textbox__svg_number {
+    position: absolute;
+    left: 30%;
+    top: 10px;
+}
+
+.raclete_wine .rachelle__trow strong{
+    margin-left: 80px;
+    margin-right: 120px;
+}
+.rachelle__personnalisez strong{
+    margin-right: 40px;
+    margin-left: auto;
+}
+.raclete_wine .rachelle__trow{
+    padding-right: 0px;
+}
+.product-box__desc_container{
+    position:relative;
+    bottom: 30px;
+}
+
+.raclete_wine .item .ibox p{
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+
+}

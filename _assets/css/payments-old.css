@@ -1,0 +1,116 @@
+.payments {
+    background: linear-gradient(to right, rgb(240, 245, 249), rgba(240, 245, 249, 0.9)), url('../img/bg-cta-payments-resize.png');
+    background-repeat: no-repeat;
+    width: 95%;
+    background-position: left, right;
+} 
+.payments .section-tittle h2{
+    text-align:left;
+    padding-top: 4%;
+    max-width: 650px;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    letter-spacing: 1.4px;
+}
+.payments__brands{
+    max-width: 690px;
+    width: 100%;
+    margin-top: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+.payments__brands img{
+    margin-right: 3em;
+    width: unset;
+
+}
+.payments__text{
+    padding: 8% 4% 8% 5%;
+}
+.section-tittle strong{
+    color: #D1D3D5;
+    letter-spacing: 3px;
+    font-size: 0.8em;
+    margin-top: 60px;
+}
+@media only screen and (min-width: 375px) {
+    .section-tittle strong{
+        font-size: 0.5em;
+    }
+    .payments__brands img {
+        width: 100px;
+        height: auto;
+        margin-top: 40px;
+    }
+    .payments{
+        background-size:100%, cover;
+        height: 80vh;
+    } 
+
+}
+@media only screen and (min-width: 500px) {
+    .section-tittle strong{
+        font-size: 0.5em;
+    }
+    .payments{
+        background-size:60%, cover;
+        min-height: 40vh;
+        height: 100%;
+    } 
+    .payments .section-tittle h2 {
+        max-width: 300px;
+        font-size: 37px;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .payments .section-tittle h2, .payments__brands{
+        max-width: 490px;
+    }
+    .section-tittle strong{
+        font-size: 0.8em;
+    }
+    .payments{
+        background-size: 60% 100%, cover;
+    } 
+}
+@media only screen and (min-width: 1366px) {
+    .payments .section-tittle h2, .payments__brands{
+        max-width: 590px;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    .payments .section-tittle h2, .payments__brands{
+        max-width: 650px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .payments__brands{
+        flex-wrap: wrap;  
+        max-width: 350px;
+        margin-top: 0px;
+    }
+    .payments__brands img{
+        margin-top: 20px;
+        width: 20%;
+    }
+    .payments .section-tittle h2{
+        max-width: 300px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .payments__brands{
+       flex-wrap: wrap;    
+       margin-top: 0px;
+       margin-bottom: 30px;
+    }
+
+    .payments .section-tittle h2{
+        max-width: 300px;
+        font-size: 35px;
+    }
+    .payments__text{
+        padding: 22% 4% 12% 5%;
+    }
+
+}

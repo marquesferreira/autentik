@@ -1,0 +1,62 @@
+.card__payments{
+   margin:50px 0;
+   display: flex;
+   align-items: center;
+   height: 100vh;
+}
+@media screen and (min-width:991px){
+    .card__payments{
+        margin:0px 0;
+        padding: 0 40px;
+    }
+}
+.payments__bg{
+    /* temporario */
+    background-image: url('../img/temporario.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/** Box Formas de Pagamento **/
+.card__payments__box{
+    padding: 70px 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.card__payments__box h2{
+    margin:20px 0 40px 0;
+    font-weight: 600;
+}
+.card__payments__box strong{
+    color:#A1A1A1;
+    font-size:12px;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width:991px){
+    .card__payments__box{
+        padding: 140px 40px;
+    }
+    .card__payments__box h2{
+        font-size: 34px;
+        margin:40px 0 90px 0;
+    }
+}
+
+/** Cartões **/
+.cards__list img{
+    max-width: 110px;
+    margin:5px;
+}
+.cards__list img:last-child{
+    margin-right:0;
+}
+@media screen and (min-width:991px){
+    .cards__list img{
+        margin:0 25px 0 0;
+    }
+}

@@ -1,0 +1,68 @@
+/* ! economisez*/
+.economisez{
+    position: relative;
+    margin-bottom: 50px;
+}
+@media screen and (min-width:991px){
+    .economisez{
+        margin-bottom: 100px;
+    }
+}
+
+.economisez__bg{
+    background: url('../img/economisez/bg-economisez.png') no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width:991px){
+    .economisez__bg{
+        min-height: 400px;
+    }
+}
+
+.economisez__logo{
+    margin: 10px 0px -45px 0px;
+    text-align: center;
+}
+
+/** Economisez Content **/
+.economisez__box {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px; /* section */
+}
+.economisez__box p{
+    color: #c0c0c0;
+}
+
+.economisez__box a{
+    border-bottom: 3px solid white;
+    padding-bottom: 6px;
+    color:white;
+    margin-bottom: 40px;
+}
+
+.economisez__box a:hover{
+    text-decoration: none;
+}
+
+.economisez h2 {
+    color: white;
+}
+
+@media screen and (min-width:991px){
+    .economisez__box h2{
+        font-size: 48px;
+        margin:90px 0 30px 0;
+    }
+    .economisez__box p{
+        margin-bottom:40px;
+    }
+}
+
+.economisez__box h2 span{
+    font-weight: 600;
+}

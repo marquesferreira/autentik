@@ -1,0 +1,135 @@
+.raclette_ .item .ibox p{
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+.raclette_ ._icon-extra:after, .raclete_wine ._icon-extra:after{
+    content: ' ';
+    background: url(../../img/products/active-icon.svg);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    z-index: 2;
+    top: -15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 56%;
+}
+
+.raclette_ .product__arrows svg:nth-child(1){
+	margin-right: 40px;
+}
+.personnalisez__price{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    font-weight: bold!important;
+    text-align: left;
+    color: #bf8175!important;
+}
+.personnalisez__price span{
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: right;
+    color: #707070;
+}
+.personnalisez__link{
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    line-height: 0px;
+    text-align: left;
+    color: #272727;
+    display: inline-flex;
+    align-items: center;
+}
+.personnalisez__link svg{
+   margin-left: 20px;
+}
+
+.personnalisez h4{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 48px;
+    text-align: right;
+    color: #363944;
+}
+.rachelle__trow{
+    position: relative;
+    top: 0px;
+}
+section.raclette_ > div > div.row.d-flex.flex-column-reverse.flex-lg-row > div.col-xs-12.col-sm-12.col-lg-3.products-hero__textbox{
+    order: 5;
+}
+ section.raclette_ > div > div.row.d-flex.flex-column-reverse.flex-lg-row > div:nth-child(2){
+    order: 6;
+}
+section.raclette_ > div > div.row.d-flex.flex-column-reverse.flex-lg-row > div.col-lg-9.mt-3.rachelle__personnalisez{
+    order: 5;
+}
+@media screen and (min-width: 1000px) {
+.raclette_ .rachelle__trow{
+    position: relative;
+    bottom: 30px;
+}
+.raclette_ .products-hero__textbox h2, .products-hero__textbox p.livre{
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+}
+.rachelle__trow strong{
+    margin-left: 80px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #000;
+
+}
+body > section.raclette_ > div > div.row.d-flex.flex-column-reverse.flex-lg-row > div.col-lg-9.offset-lg-3.mt-3.rachelle__personnalisez > div, body > section.raclete_wine > div > div:nth-child(2) > div.col-lg-9.mt-3.rachelle__personnalisez.d-none.d-lg-block > div{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+section.raclette_ > div > div.row.d-flex.flex-column-reverse.flex-lg-row > div.col-xs-12.col-sm-12.col-lg-3.products-hero__textbox{
+    order: unset;
+}
+ section.raclette_ > div > div.row.d-flex.flex-column-reverse.flex-lg-row > div:nth-child(2){
+    order: unset;
+}
+section.raclette_ > div > div.row.d-flex.flex-column-reverse.flex-lg-row > div.col-lg-9.mt-3.rachelle__personnalisez{
+    order: unset;
+}
+.personnalisez__price {
+    margin-right: 50px;
+}
+.raclette_ .item .ibox, .raclete_wine .item .ibox {
+    max-height: 430px;
+}
+.rachelle__personnalisez{
+    padding-left: 90px;
+    position: relative;
+    bottom: 90px;
+    height: 39px;
+    max-height: 20vh;
+}
+}
+
+@media screen and (min-width:991px){
+    .raclette_ .MS-content .item, .raclete_wine .MS-content .item{
+        width: 31%;
+        /* max-width: 280px; */
+        /* margin-right: 30px; */
+        max-height: 390px;
+        overflow: hidden;
+    }
+}
